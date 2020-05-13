@@ -1,0 +1,2 @@
+# Config_Socket
+根据XML配置文件自动配置的简单Socket通讯
