@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Client>
+    <Basics>
+        <Target_IP style="127.0.0.1/www.xxx.xxx">127.0.0.1</Target_IP>
+        <Target_Port style="int">8000</Target_Port>
+        <Local_IP style="127.0.0.1">127.0.0.1</Local_IP>
+        <Local_Port style="int">0</Local_Port>
+        <Proxy>
+            <isOpen style="boolean">false</isOpen>
+            <Type>HTTP</Type>
+            <Proxy_IP style="127.0.0.1">127.0.0.1</Proxy_IP>
+            <Proxy_Port style="int">0</Proxy_Port>
+        </Proxy>
+    </Basics>
+    <Option>
+        <TcpNoDelay style="boolean">false</TcpNoDelay>
+        <ResuseAddress style="boolean">false</ResuseAddress>
+        <Timeout style="int">3000</Timeout>
+        <Linger>
+            <isOpen>false</isOpen>
+            <Timeout>3000</Timeout>
+        </Linger>
+        <Linger style="boolean">false</Linger>
+        <SendBufferSize style="int">1024</SendBufferSize>
+        <ReceiveBufferSize style="int">1024</ReceiveBufferSize>
+        <KeepAlive style="boolean">false</KeepAlive>
+        <OOBInline style="boolean">false</OOBInline>
+        <TrafficClass style="int">10</TrafficClass>
+        <PerformancePreferences>
+            <ConnectionTime style="int">1</ConnectionTime>
+            <Latency style="int">1</Latency>
+            <Bandwidth style="int">2</Bandwidth>
+        </PerformancePreferences>
+    </Option>
+</Client>

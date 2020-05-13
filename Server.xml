@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Server>
+    <isOpen>false</isOpen>
+    <Basics>
+        <IP style="127.0.0.1">127.0.0.1</IP>
+        <Port style="int">8000</Port>
+        <Backlog style="int">1</Backlog>
+    </Basics>
+    <Option>
+        <Timeout style="int">0</Timeout>
+        <ResuseAddress style="boolean">true</ResuseAddress>
+        <ReceiveBufferSize style="int">100</ReceiveBufferSize>
+        <PerformancePreferences>
+            <ConnectionTime style="int">1</ConnectionTime>
+            <Latency style="int">1</Latency>
+            <Bandwidth style="int">2</Bandwidth>
+        </PerformancePreferences>
+        <Threading>
+            <Open style="boolean">true</Open>
+            <Count style="int">3</Count>
+        </Threading>
+    </Option>
+</Server>
